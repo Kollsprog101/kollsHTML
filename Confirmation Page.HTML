@@ -92,33 +92,42 @@
             font-size: 1em;
             color: #555;
         }
+
+        
         .confirmation h2 {
     margin-bottom: 20px;
 }
-button {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-        .product button
-         {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%;
-            margin-top: 15px;
+    /* BUTTON CSS */
+        button {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        position: relative;
+        top: 30px;
+        transition: 0.4s;
+        transform: 0.2s;
+        box-shadow: 0.2s;
         }
 
-        .product button:hover {
-            background-color: #575757;
+        button:hover {
+            background-color: rgb(222, 222, 222);
+            color: black;
+            box-shadow: black;
+            border-radius: 10%;
+            padding: 20px;
+            transform: translateY(-6px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
         }
+
+        button:active {
+            transform: translateY(0); /* Bring it back when clicked */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Slightly reduce the shadow */
+    }
+
 
         /* Footer Styles */
         footer {
