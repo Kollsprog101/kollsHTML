@@ -50,6 +50,31 @@
         .products { display: flex; justify-content: space-around; flex-wrap: wrap; }
         .product { background-color: white; padding: 20px; margin: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); width: 280px; text-align: center; }
         .product img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+
+        .product a {color: black;
+            box-shadow: black;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            border-color: black;
+            
+        }
+
+        .product a:hover {
+            background-color: rgb(222, 222, 222);
+            color: black;
+            box-shadow: black;
+            border-radius: 10%;
+            transform: translateY(-6px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .pic {
+                width:5cm ; height:10cm ;
+                border-radius:10%;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -57,7 +82,7 @@
             padding: 15px 0;
             position: absolute;
             width: 100%;
-            bottom: 0;
+            bottom: 100;
         }
 
         footer p {
@@ -88,17 +113,37 @@
         <h2>Our Products</h2>
         <div class="products">
             <div class="product">
-                <img src="https://via.placeholder.com/280" alt="Product 1">
-                <h3>Product 1</h3>
+                <img class = "pic" src="C:\Users\jikas\OneDrive\Desktop\HTML FILES\kollsHTML\Resource\americano.jpg" alt="Product 1">
+                <h3>Americano</h3>
                 <p>$20.00</p>
                 <a href="product-detail-1.html">View Details</a>
             </div>
             <div class="product">
-                <img src="https://via.placeholder.com/280" alt="Product 2">
-                <h3>Product 2</h3>
+                <img class = "pic" src="C:\Users\jikas\OneDrive\Desktop\HTML FILES\kollsHTML\Resource\expresso.jpg" alt="Product 2">
+                <h3>Espresso</h3>
                 <p>$25.00</p>
                 <a href="product-detail-2.html">View Details</a>
             </div>
+            <div class="product">
+                <img class = "pic" src="C:\Users\jikas\OneDrive\Desktop\HTML FILES\kollsHTML\Resource\frappe.jpg" alt="Product 3">
+                <h3>Frappe</h3>
+                <p>$25.00</p>
+                <a href="product-detail-3.html">View Details</a>
+            </div>
+            <div class="product">
+                <img class = "pic" src="C:\Users\jikas\OneDrive\Desktop\HTML FILES\kollsHTML\Resource\ice coffe.jpg" alt="Product 4">
+                <h3>Iced Coffee</h3>
+                <p>$25.00</p>
+                <a href="product-detail-4.html">View Details</a>
+            </div>            <div class="product">
+                <img class = "pic" src="C:\Users\jikas\OneDrive\Desktop\HTML FILES\kollsHTML\Resource\latte.jpg" alt="Product 5">
+                <h3>Latte</h3>
+                <p>$25.00</p>
+                <a href="product-detail-5.html">View Details</a>
+            </div>
+
+
+
             <!-- Add more products as needed -->
         </div>
     </div>
