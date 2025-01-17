@@ -6,14 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; background-color: #f8f8f8; color: #333; }
-        header, footer { background-color: #333; color: white; text-align: center; padding: 15px 0; }
+        header { background-color: #333; color: white; text-align: center; padding: 30px 0; }
+        header h1 { font-size: 3em; }
         nav { background-color: #444; text-align: center; padding: 10px 0; }
-        nav a { color: white; text-decoration: none; padding: 14px 20px; display: inline-block; }
+        nav a { color: white; text-decoration: none; padding: 14px 20px; display: inline-block; transition: background-color 0.3s ease; }
         nav a:hover { background-color: #575757; }
         .faq { padding: 40px 10%; }
         .faq h2 { margin-bottom: 20px; }
         .faq p { margin-bottom: 10px; }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
     </style>
 </head>
 <body>
