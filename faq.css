@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+header {
+    width: 1140px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #555;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    background-color: rgb(161, 0, 161);
+    color: white;
+    box-shadow: black;
+    border-radius: 10%;
+    transform: translateY(-6px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.faq-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #693EFF;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    margin-bottom: 25px;
+}
+
+.faq-item h2 {
+    font-size: 1.6em;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.faq-item h2:hover {
+    color: #693EFF;
+}
+
+.faq-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.faq-item a {
+    color: #693EFF;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #555;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+    .faq-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .faq-item h2 {
+        font-size: 1.4em;
+    }
+
+    .faq-item p {
+        font-size: 1em;
+    }
+}

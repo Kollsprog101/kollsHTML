@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+header {
+    width: 1140px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #555;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    background-color: rgb(161, 0, 161);
+    color: white;
+    box-shadow: black;
+    border-radius: 10%;
+    transform: translateY(-6px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);s
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.confirmation-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #693EFF;
+    margin-bottom: 20px;
+}
+
+.confirmation-content {
+    text-align: center;
+}
+
+.confirmation-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.order-summary {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.order-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-summary li {
+    padding: 5px 0;
+}
+
+.confirmation-buttons {
+    margin-top: 30px;
+}
+
+.home-btn {
+    padding: 12px 25px;
+    background-color: #693EFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #5528cc;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #555;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+    .confirmation-container {
+        padding: 20px;
+    }
+
+    .confirmation-header h1 {
+        font-size: 2em;
+    }
+
+    .confirmation-content p {
+        font-size: 1em;
+    }
+
+    .order-summary {
+        font-size: 1em;
+    }
+
+    .home-btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
